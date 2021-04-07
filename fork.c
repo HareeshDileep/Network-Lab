@@ -29,7 +29,7 @@ int main()
                 if(f==0)
                     printf("Child process C2 created with process id %d and parent id %d\n",getpid(),getppid());
             }
-            break;
+             break;
         case 2:
             f=fork();
             if(f==0)
