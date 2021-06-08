@@ -21,8 +21,8 @@ void chat(int sockfd)
         scanf("%[^\n]%*c", buff);
         if(strcmp(buff,"exit")==0)
         {
-            printf("EXIT command detected\n");
-            exit(0);
+             printf("EXIT command detected\n");
+             exit(0);
         }
         write(sockfd,buff,sizeof(buff));
     }
