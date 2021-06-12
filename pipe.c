@@ -4,7 +4,7 @@
 #include<sys/wait.h>
 int main()
 {
-    int pipe1[2], pipe2[2];
+     int pipe1[2], pipe2[2];
     int pid,status1,status2;
     char pipe1_read[50],pipe1_write[50],pipe2_read[50],pipe2_write[50];
     char new[50]="Welcome";
