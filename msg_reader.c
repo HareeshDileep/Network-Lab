@@ -1,4 +1,4 @@
-#include<stdio.h>
+ #include<stdio.h>
 #include<sys/ipc.h>
 #include<sys/msg.h>
 #include<stdlib.h>
