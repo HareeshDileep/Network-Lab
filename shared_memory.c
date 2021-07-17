@@ -1,4 +1,4 @@
-#include<stdio.h>
+ #include<stdio.h>
 #include<sys/ipc.h>
 #include<sys/shm.h>
 #include<stdlib.h>
