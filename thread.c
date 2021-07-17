@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<pthread.h>
-int limit;
+ int limit;
 void *fib(void *var){
     int a=0,b=1,c=1,n=0;
     while(n!=limit){
