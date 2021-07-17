@@ -6,7 +6,7 @@
 #define PORT 5000
 struct sockaddr_in servaddr;
 void chat(int sockfd){
-    while(1){
+   while(1){
         char buffer[200];
         struct sockaddr_in cliaddr;
         int len=sizeof(cliaddr);
