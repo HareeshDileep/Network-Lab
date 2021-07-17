@@ -17,7 +17,7 @@ void chat(int sockfd){
         buffer[n]='\0';
         printf("Server: %s [MSG LENGTH: %d]\n",buffer,strlen(buffer));
         strcpy(buffer,"");
-    }
+     }
 }
 int main() {
     
